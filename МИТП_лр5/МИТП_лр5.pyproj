@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="file_select.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="progressbar.py">
       <SubType>Code</SubType>
     </Compile>
