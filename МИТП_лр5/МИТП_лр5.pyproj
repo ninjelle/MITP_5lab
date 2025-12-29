@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>b1b04b65-ef8d-46b0-a0fb-9274839a2afe</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>text_output_button.py</StartupFile>
+    <StartupFile>local_chat.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -27,7 +27,6 @@
     <Compile Include="graphic.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="local_chat - Copy.py" />
     <Compile Include="local_chat.py">
       <SubType>Code</SubType>
     </Compile>

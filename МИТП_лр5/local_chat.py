@@ -40,7 +40,12 @@ def send_msg():
         else:
             add_msg("Bot: I don't understand...")
 
-tk.Button(window, text="Send", command=send_msg).pack()
+tk.Button(
+    window, 
+    text="Send", 
+    command=send_msg,
+    bg="pink"  
+).pack()
 
 add_msg("Start chatting!")
 window.mainloop()
