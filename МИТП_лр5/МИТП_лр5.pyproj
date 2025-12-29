@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>b1b04b65-ef8d-46b0-a0fb-9274839a2afe</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>МИТП_лр5.py</StartupFile>
+    <StartupFile>text_output_button.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="МИТП_лр5.py" />
+    <Compile Include="progressbar.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="text_output_button.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
